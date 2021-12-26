@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+
+        <h2>Application</h2>
+        <p>Note: This form is to be submitted 30 day before the starting date.</p>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id='name' placeholder='Enter name here...'>
+            </div>
+            <div>
+                <label for="addr">Address:</label>
+                <input type="text" id='addr' placeholder='Enter Address here...'>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id='email' placeholder='Enter email here...'>
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id='phone' placeholder='Enter 10 digit number...' maxlength="10">
+            </div>
+            <div>
+                <label for="grade">Grade:</label>
+                <input type="number" id='grade' placeholder='Enter your grade here...' min=1 max=10>
+            </div>
+            <div>
+                <label for="">Gender</label>
+                <div>
+                    <input type="radio" id='male' name='gender'>
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id='female' name='gender'>
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" id='other' name='gender'>
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id='date'>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="">Check All that Apply:</label>
+
+            <div>
+                <input type="checkbox" id='one'>
+                <label for="one">I want to learn JavaScript</label>
+            </div>
+            <div>
+                <input type="checkbox" id='two'>
+                <label for="two">I want to learn React</label>
+            </div>
+            <div>
+                <input type="checkbox" id='three'>
+                <label for="three">I have a degree in engineering</label>
+            </div>
+            <div>
+                <input type="checkbox" id='four'>
+                <label for="four">I work full time</label>
+            </div>
+            <div>
+                <input type="checkbox" id='five'>
+                <label for="five">I am motivated to find a job</label>
+            </div>
+            <div>
+                <input type="checkbox" id='six'>
+                <label for="six">I live in USA</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="edu">Education Level:</label>
+                <select name="" id="edu">
+                    <option>High School</option>
+                    <option>Masters</option>
+                    <option>Bachelor</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Essay Section</legend>
+            <textarea name="" id="expe" cols="30" rows="5" placeholder='Enter text here...'></textarea>
+        </fieldset>
+        <button>Send your Application</button>
+    </form>
+</body>
+
+</html>
